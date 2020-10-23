@@ -1,0 +1,7 @@
+img {
+  grid-area: pic;
+  width: 85vw;
+  max-width: 600px;
+  opacity: 0.95;
+  border-radius: 400px;
+}

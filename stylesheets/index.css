@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+main section {
+  /*border-color: #853b4c;*/
+  padding: 50px;
+  border: 6px;
+  border-style: dashed;
+  border-radius: 5px;
+}

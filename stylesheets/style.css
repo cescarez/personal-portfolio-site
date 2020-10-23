@@ -3,24 +3,10 @@
 /* light blue: #9ed8fd; */
 /* dark blue: #6286a8; */
 
-/* font rendering requires internet access */
-/* --------------------------------------- */
-
-@font-face {
-  font-family: "Raleway";
-  src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-}
-
-@font-face {
-  font-family: "Bitter";
-  src: url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
-}
-
 /* link colors */
 /* ----------- */
-
 a {
-  color: #ffffff;
+  color: #6286a8;
   text-decoration: none;
 }
 
@@ -34,14 +20,6 @@ a:visited {
 
 a:visited:hover {
   color: #6b0303;
-}
-
-html {
-  /*box-sizing: border-box;*/
-}
-
-*, *::before, *::after {
-  /*box-sizing: inherit;*/
 }
 
 /* semantic tags */
@@ -98,14 +76,17 @@ main {
   grid-row: 2 / -2;
 }
 
-p {
-
-}
 
 h3 {
   font-family: "Bitter", sans-serif;
 }
 
+ul li {
+  display: inline;
+  list-style: none;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
 
 nav {
   display: flex;
@@ -113,6 +94,11 @@ nav {
   justify-content: space-around;
   /*font-size:calc(12px + 2vw);*/
   font-size: 2em;
+}
+
+
+nav a {
+  color: #ffffff;
 }
 
 .nav-icon, .nav-icon-overlay, #home-icon, #home-text {
@@ -140,10 +126,6 @@ nav#site-nav ul {
 }
 
 nav#site-nav ul li {
-  display: inline;
-  list-style: none;
-  padding-left: 3vw;
-  padding-right: 3vw;
   align-items: center;
 }
 

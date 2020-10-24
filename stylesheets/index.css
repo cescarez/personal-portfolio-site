@@ -13,3 +13,12 @@ main section {
   border-style: dashed;
   border-radius: 5px;
 }
+
+main section h3:last-of-type {
+  font-size: 1.25em;
+  font-family: Arial, monospace;
+}
+
+main section a {
+  font-size: 1.5em;
+}

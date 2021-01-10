@@ -23,3 +23,12 @@ section {
   grid-column: 2 / -1;
   grid-row: 1 / -1;
 }
+
+.deployed {
+  font-style: italic;
+}
+
+.note {
+  font-size: 6px;
+  font-style: italic;
+}
